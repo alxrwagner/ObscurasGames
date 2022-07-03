@@ -144,11 +144,12 @@ body {
   margin: auto 0;
 }
 .navbar li {
-  display: inline-block;
+  display: block;
   padding: 0 40px 0 0;
 }
 .navbar__link {
-  display: inline-block;
+  display: inline;
+  white-space: nowrap;
   text-decoration: none;
   color: white;
 }
