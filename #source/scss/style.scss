@@ -151,6 +151,16 @@ body{
 		}
 }
 .gallary {
+
+	&__body{
+		display: grid;
+		grid-template-columns: 33.333%;
+		grid-template-rows: auto;
+	}
+
+	&__item{
+
+	}
 }
 .projects {
 	display: flex;
